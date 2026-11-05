@@ -1,0 +1,36 @@
+WEKA IMPLEMENTATION – STEP BY STEP
+=====================================
+
+1. Open WEKA.
+2. Select Explorer.
+3. In the Preprocess tab, click Open file.
+4. Select online_shopping_behaviour.arff.
+5. Check that 200 instances and 12 attributes are loaded.
+6. In the Class dropdown at the bottom, select Purchase.
+7. Open the Classify tab.
+8. Click Choose > trees > J48.
+9. Under Test options, select Cross-validation and keep 10 folds.
+10. Click Start. Save a screenshot of the output.
+11. Repeat with Choose > bayes > NaiveBayes.
+12. Repeat with Choose > trees > RandomForest.
+13. Record each algorithm's correctly classified instances, accuracy,
+    precision, recall, F-measure, and confusion matrix.
+14. Compare the three algorithms in a table in your report.
+
+Optional visual exploration:
+- Open the Visualize tab to inspect attribute distributions and scatter plots.
+- In Preprocess, select attributes one by one and use Visualize All to explore
+  customer patterns.
+- You can also use Filter > unsupervised > attribute > Discretize for
+  experimenting with numeric attributes, but keep the original dataset for
+  the main comparison.
+
+How to explain the project:
+"The project analyses shopping-session information such as time spent,
+pages viewed, items added to cart, visitor type and previous purchases.
+WEKA classification algorithms learn patterns from these attributes and
+predict the Purchase class as Yes or No. We compare J48, Naive Bayes and
+Random Forest using 10-fold cross-validation."
+
+Note:
+Do not assume an accuracy in advance. Use the values shown by your own WEKA run.

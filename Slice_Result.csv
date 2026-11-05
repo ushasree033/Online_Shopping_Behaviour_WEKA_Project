@@ -1,0 +1,13 @@
+Dimension,Records,Purchases,Purchase_Percentage
+"Beauty | New",5,3,60.00%
+"Beauty | Returning",5,4,80.00%
+"Books | New",5,4,80.00%
+"Books | Returning",9,4,44.44%
+"Clothing | New",4,2,50.00%
+"Clothing | Returning",6,5,83.33%
+"Electronics | New",4,4,100.00%
+"Electronics | Returning",5,3,60.00%
+"Home | New",2,0,0.00%
+"Home | Returning",8,6,75.00%
+"Sports | New",5,2,40.00%
+"Sports | Returning",3,1,33.33%

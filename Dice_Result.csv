@@ -1,0 +1,9 @@
+Dimension,Records,Purchases,Purchase_Percentage
+"Beauty | New | Mobile",5,3,60.00%
+"Beauty | New | Tablet",2,1,50.00%
+"Beauty | Returning | Mobile",5,4,80.00%
+"Beauty | Returning | Tablet",3,1,33.33%
+"Clothing | New | Mobile",4,2,50.00%
+"Clothing | New | Tablet",3,3,100.00%
+"Clothing | Returning | Mobile",6,5,83.33%
+"Clothing | Returning | Tablet",6,4,66.67%
